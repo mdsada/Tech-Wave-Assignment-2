@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechWave</title>
+  <link rel="icon" type="image/x-icon" href="./images/microphone.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-[#351F53]">
+
+  <!-- Navbar Section -->
+
+<header class="bg-[#230747]">
+
+  <!-- Mobile Menu -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <div class="max-w-6xl mx-auto px-5 py-5 flex items-center">
+
+    <div class="flex-1">
+     <img src="./images/TechWave.png">
+    </div>
+
+    <!-- Menu -->
+    <nav class="hidden md:flex flex-1 justify-center space-x-8">
+
+      <a href="#" class="text-gray-200 hover:text-cyan-300 transition-colors duration-200">About</a>
+      <a href="#" class="text-gray-200 hover:text-cyan-300 transition-colors duration-200">Episodes</a>
+      <a href="#" class="text-gray-200 hover:text-cyan-300 transition-colors duration-200">Host</a>
+    </nav>
+
+          <!-- Btn -->
+    <div class="hidden md:flex flex-1 justify-end">
+      <button class="group bg-gradient-to-r from-purple-500 via-pink-600 to-yellow-500 text-white px-6 py-2 rounded-full transition-all hover:pr-8 flex">
+  Subscribe 
+  <img src="./images/ArrowRight.png">
+</button>
+     
+    </div>
+
+    <!-- Hamburger Icon (M) -->
+    <label for="menu-toggle" class="md:hidden cursor-pointer">
+      <img src="./images/hamburger-menu.png" alt="Menu icon" class="w-7 h-7">
+    </label>
+
+  </div>
+
+  <!-- Mobile Menu Section -->
+
+  <div class="md:hidden hidden peer-checked:block bg-[#14002b] px-6 pb-6">
+    <nav class="flex flex-col gap-4 text-white">
+      <a href="#">About</a>
+      <a href="#">Episodes</a>
+      <a href="#">Host</a>
+
+    <button class="mt-4 bg-gradient-to-r from-pink-500 via-yellow-600 to-purple-500 py-2 rounded-full"> Subscribe
+      </button>
+    </nav>
+  </div>
+
+</header>
+
+
+
+
+</body>
+</html>
